@@ -35,6 +35,14 @@ ul li {
     font-weight: var(--font-bolder);
 }
 
+.left-nav ul > li:hover {
+    transform: none;
+}
+
+ul li:hover {
+    transform: scale(1.1);
+}
+
 .right-nav ul {
     display: flex;
     justify-content: center;
@@ -46,4 +54,41 @@ ul li {
 .container {
     color: var(--color-white);
     margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.login {
+    background-color: rgb(199, 120, 16);
+    font-family: var(--font-family);
+    font-weight: var(--font-bolder);
+    color: var(--color-white);
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.login:hover {
+    transform: scale(1.1);
+}
+
+.sign:hover {
+    transform: scale(1.1);
+}
+
+.sign {
+    background-color: rgb(166, 4, 172);
+    font-family: var(--font-family);
+    font-weight: var(--font-bolder);
+    color: var(--color-white);
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    cursor: pointer;
 }
