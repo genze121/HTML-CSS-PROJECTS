@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:
+        Optimistic Text,
+        -apple-system,
+        ui-sans-serif,
+        system-ui,
+        sans-serif,
+        Apple Color Emoji,
+        Segoe UI Emoji,
+        Segoe UI Symbol,
+        Noto Color Emoji;
+    box-sizing: border-box;
+}
+
+nav {
+    background: rgb(0, 0, 0);
+    display: flex;
+}
+
+.react-image {
+    padding: 15px 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.react-image a {
+    color: rgb(88 196 220);
+}
+
+.react-version-text {
+    color: #fff !important;
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+}
+
+.react-version-text:hover {
+    color: rgb(88 196 220) !important;
+    text-decoration: underline;
+}
+
+.react-search {
+    margin-top: 15px;
+    margin-left: -25px;
+}
+
+.react-search input[type="text"] {
+    padding: 10px 10px;
+    outline: none;
+    min-width: 650px;
+    border-radius: 20px;
+    border: none;
+}
+
+.react-search input[type="text"]::placeholder {
+    position: relative;
+    left: 30px;
+}
+
+.search-icon {
+    color: #000;
+    position: relative;
+    top: 3px;
+    left: 40px;
+}
+
+.list-items {
+    margin-left: 40px;
+    margin-top: 25px;
+}
+
+.list-items ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.list-items ul > li {
+    color: #fff;
+    list-style: none;
+}
+
+.list-items ul > li:hover {
+    cursor: pointer;
+    background-color: #7f7d7d;
+    border-radius: 15px;
+}
+
+.list-items ul > li:first-child {
+    color: rgb(88 196 220);
+}
