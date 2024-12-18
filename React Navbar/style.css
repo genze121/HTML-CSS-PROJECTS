@@ -84,8 +84,6 @@ nav {
 
 .list-items ul > li:hover {
     cursor: pointer;
-    background-color: #7f7d7d;
-    border-radius: 15px;
 }
 
 .list-items ul > li:first-child {
