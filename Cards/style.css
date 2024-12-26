@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    max-width: 900px;
+    margin: 80px 50px;
+}
+
+.cards {
+    width: 400px;
+    height: 520px;
+    border: 1px solid #979797;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.cards h2 {
+    padding: 20px 20px;
+}
+
+.title {
+    padding: 5px 20px;
+    font-size: 20px;
+    opacity: 0.5;
+}
+
+.cards p {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.mail {
+    font-style: italic;
+}
+
+button {
+    width: 380px;
+    height: 40px;
+    margin: 10px 10px;
+    background: rgb(17, 17, 17);
+    color: #fff;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+}
+
+button:hover {
+    background: rgb(212, 212, 212);
+    color: #000;
+    cursor: pointer;
+}
