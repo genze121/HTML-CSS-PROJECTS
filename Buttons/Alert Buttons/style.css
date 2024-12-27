@@ -1,0 +1,92 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    height: 20vh;
+    padding: 20px 20px;
+}
+.btn {
+    color: #fff;
+    border: none;
+    font-weight: bolder;
+    padding: 15px 15px;
+    margin: 0 10px;
+}
+
+.success {
+    background-color: green;
+}
+
+.success:hover {
+    background-color: rgb(15, 158, 15);
+    cursor: pointer;
+}
+
+.danger {
+    background-color: red;
+}
+
+.danger:hover {
+    background-color: rgb(207, 15, 15);
+    cursor: pointer;
+}
+
+.primary {
+    background-color: rgb(16, 90, 238);
+}
+
+.primary:hover {
+    background-color: rgb(5, 129, 217);
+    cursor: pointer;
+}
+
+.warning {
+    background-color: #ff971c;
+}
+
+.warning:hover {
+    background-color: #e18719;
+    cursor: pointer;
+}
+
+.default {
+    background-color: #ddd;
+    color: #000;
+}
+
+.default:hover {
+    background-color: #c2c2c2;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+    .button-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        background-color: beige;
+        margin: 10px 20px;
+    }
+
+    .btn {
+        margin: 0 20px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 868px) {
+    .btn {
+        padding: 12px 12px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .button-container {
+        height: 50vh;
+    }
+}
