@@ -1,0 +1,126 @@
+* {
+    font-family: verdana, sans-serif;
+}
+
+.button-container {
+    border: 1px solid #000;
+    height: 20vh;
+    margin: 50px 50px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    background-color: #ffffff;
+    margin: 10px 10px;
+    padding: 20px 20px;
+}
+
+.success {
+    border: 1px solid green;
+}
+
+.success:hover {
+    background-color: green;
+    cursor: pointer;
+    color: #fff;
+}
+
+.danger {
+    border: 1px solid red;
+}
+
+.danger:hover {
+    background-color: red;
+    cursor: pointer;
+    color: #fff;
+}
+
+.primary {
+    border: 1px solid #2196f3;
+}
+
+.primary:hover {
+    background-color: #2196f3;
+    cursor: pointer;
+    color: #fff;
+}
+
+.warning {
+    border: 1px solid #ff9800;
+}
+
+.warning:hover {
+    background-color: #ff9800;
+    cursor: pointer;
+    color: #fff;
+}
+
+.default {
+    border: 1px solid #e1dede;
+}
+
+.default:hover {
+    background-color: #e1dede;
+    cursor: pointer;
+    color: #000;
+}
+
+/* Button Radius */
+
+.success-button {
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.success-button:hover {
+    background-color: green;
+    cursor: pointer;
+    color: #fff;
+}
+
+.danger-button {
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.danger-button:hover {
+    background-color: red;
+    cursor: pointer;
+    color: #fff;
+}
+
+.primary-button {
+    border: 1px solid #2196f3;
+    border-radius: 10px;
+}
+
+.primary-button:hover {
+    background-color: #2196f3;
+    cursor: pointer;
+    color: #fff;
+}
+
+.warning-button {
+    border: 1px solid #ff9800;
+    border-radius: 10px;
+}
+
+.warning-button:hover {
+    background-color: #ff9800;
+    cursor: pointer;
+    color: #fff;
+}
+
+.default-button {
+    border: 1px solid #e1dede;
+    border-radius: 10px;
+}
+
+.default-button:hover {
+    background-color: #e1dede;
+    cursor: pointer;
+    color: #000;
+}
