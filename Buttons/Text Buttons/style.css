@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif, verdana;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    border: 1px solid black;
+    height: 40vh;
+}
+
+button {
+    padding: 20px 20px;
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.success {
+    color: green;
+    font-size: 20px;
+}
+
+.success:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.info {
+    color: #1392fd;
+    font-size: 20px;
+}
+
+.info:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.warning {
+    color: orange;
+    font-size: 20px;
+}
+
+.warning:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.danger {
+    color: red;
+    font-size: 20px;
+}
+
+.danger:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.default {
+    color: black;
+    font-size: 20px;
+}
+
+.default:hover {
+    background-color: #eee;
+    cursor: pointer;
+}
