@@ -1,0 +1,243 @@
+:root {
+    --pointing-cursor: pointer;
+    --opaque-color: 0.8;
+    --white-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.social-media-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    border: 1px solid rgb(217, 205, 205);
+    height: 50vh;
+    margin: 20px 20px;
+    box-shadow: 0 8px 8px rgba(6, 6, 6, 0.1);
+}
+
+.header {
+    margin: 20px 0;
+}
+
+.header h1 {
+    text-align: center;
+    text-shadow: 0 1px 1px #2f0000;
+    text-decoration: underline;
+}
+.fa {
+    padding: 30px 30px;
+    font-size: 30px !important;
+    border-radius: 50%;
+}
+
+.fa-facebook {
+    background-color: #3b5998;
+    color: var(--white-color);
+}
+
+.fa-facebook:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-twitter {
+    background-color: #55acee;
+    color: var(--white-color);
+}
+
+.fa-twitter:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-google {
+    background-color: #dd4b39;
+    color: var(--white-color);
+}
+
+.fa-google:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-linkedin {
+    background-color: #007bb5;
+    color: var(--white-color);
+}
+
+.fa-linkedin:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-youtube {
+    background-color: #bb0000;
+    color: var(--white-color);
+}
+
+.fa-youtube:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-instagram {
+    background-color: #c13584;
+    color: var(--white-color);
+}
+
+.fa-instagram:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-pinterest {
+    background-color: #bd081c;
+    color: var(--white-color);
+}
+
+.fa-pinterest:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-snapchat-ghost {
+    background-color: #fffc00;
+    color: var(--white-color);
+    text-shadow:
+        -1px 0 black,
+        0 1px black,
+        1px 0 black,
+        0 -1px black;
+}
+
+.fa-snapchat-ghost:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-skype {
+    background-color: #00aff0;
+    color: var(--white-color);
+}
+
+.fa-skype:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-android {
+    background-color: #a4c639;
+    color: var(--white-color);
+}
+
+.fa-android:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-dribbble {
+    background-color: #ea4c89;
+    color: var(--white-color);
+}
+
+.fa-dribbble:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-vimeo {
+    background-color: #1ab7ea;
+    color: var(--white-color);
+}
+
+.fa-vimeo:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-tumblr {
+    background-color: #32506d;
+    color: var(--white-color);
+}
+
+.fa-tumblr:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-vine {
+    background-color: #00b489;
+    color: var(--white-color);
+}
+
+.fa-vine:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-foursquare {
+    background-color: #0077be;
+    color: var(--white-color);
+}
+
+.fa-foursquare:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-stumbleupon {
+    background-color: #eb4924;
+    color: var(--white-color);
+}
+
+.fa-stumbleupon:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-flickr {
+    background-color: #f40083;
+    color: var(--white-color);
+}
+
+.fa-flickr:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-yahoo {
+    background-color: #430297;
+    color: var(--white-color);
+}
+
+.fa-yahoo:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-reddit {
+    background-color: #ff5700;
+    color: var(--white-color);
+}
+
+.fa-reddit:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
+
+.fa-rss {
+    background-color: #ff6600;
+    color: var(--white-color);
+}
+
+.fa-rss:hover {
+    cursor: var(--pointing-cursor);
+    opacity: var(--opaque-color);
+}
