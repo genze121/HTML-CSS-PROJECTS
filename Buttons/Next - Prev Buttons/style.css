@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+
+button {
+    padding: 10px 10px;
+    margin: 0 10px;
+    border: none;
+}
+
+.prev {
+    background-color: #dbdbdb;
+    width: 150px;
+}
+
+.prev:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.next {
+    background-color: green;
+    color: #fff;
+    width: 100px;
+}
+
+.next:hover {
+    cursor: pointer;
+    background-color: #b6b6b6;
+    color: #000;
+}
+
+.prev-icon {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+.next-icon {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 20px;
+}
+
+.prev-icon:hover {
+    background-color: #b6b6b6;
+    color: #000;
+    cursor: pointer;
+}
+
+.next-icon:hover {
+    background-color: #b6b6b6;
+    color: #000;
+    cursor: pointer;
+}
+
+.prev-rounded-icon {
+    border-radius: 50%;
+    padding: 20px 20px;
+    background-color: #d4d4d4;
+}
+
+.next-rounded-icon {
+    border-radius: 50%;
+    padding: 20px 20px;
+    background-color: #d4d4d4;
+}
+
+.prev-rounded-icon:hover {
+    background-color: #b6b6b6;
+    color: #000;
+    cursor: pointer;
+}
+
+.next-rounded-icon:hover {
+    background-color: #b6b6b6;
+    color: #000;
+    cursor: pointer;
+}
