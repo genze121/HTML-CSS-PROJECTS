@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.scroll-top {
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 20px 20px;
+    border-radius: 8px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+}
+
+.scroll-top:hover {
+    background-color: #5b5b5b;
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-weight: 600;
+    height: 10vh;
+}
+
+.navbar h3 {
+    margin: 0 20px;
+    font-size: 30px;
+}
+
+.scrolling-text {
+    padding: 30px 30px 2500px;
+}
