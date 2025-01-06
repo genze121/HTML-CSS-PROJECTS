@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.text {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    border: 1px solid #000;
+    flex-wrap: wrap;
+}
+
+.text p {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 20px;
+    line-height: 1.5;
+}
+
+.button-text {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 20px 20px;
+    font-size: 16px;
+}
+
+.button-text:hover {
+    cursor: pointer;
+    background-color: #5b5b5b;
+}
+
+#more {
+    display: none;
+}
