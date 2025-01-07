@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    gap: 50px;
+    border: 1px solid rgb(68, 70, 70);
+    padding: 30px 30px;
+    height: 80vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px #212121;
+}
+
+.one {
+    border: 1px solid #eeecec;
+    width: 300px;
+    height: 380px;
+    box-shadow: 2px 2px 2px 1px #bbbbbb;
+    border-radius: 10px;
+}
+
+.one img {
+    border-radius: 5px;
+}
+
+.one h2 {
+    margin: 20px 20px;
+}
+
+.one h4 {
+    margin: 30px 20px;
+    opacity: 0.8;
+}
