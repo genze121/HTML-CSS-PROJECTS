@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #212121;
+}
+
+.hover-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px;
+}
+
+.card {
+    border: 1px solid #717171;
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.card img {
+    border-radius: 10px;
+    margin: 0 0 20px 20px;
+}
+
+.card:hover {
+    cursor: pointer;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: 2px 2px 2px 2px rgba(219, 219, 219, 0.8);
+}
+
+.card .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 15px 15px;
+}
+
+.card h2 {
+    color: #fff;
+    margin: 5px 15px;
+    font-weight: 700;
+}
+
+.card .capsules {
+    margin: 20px 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+}
+
+.capsules h5 {
+    width: 100px;
+    border: 1px solid #4b4b4b;
+    color: #8c8989;
+    padding: 6px 6px;
+    border-radius: 10px;
+}
+
+.capsules h6 {
+    width: 40px;
+    border: 1px solid #4b4b4b;
+    color: #8c8989;
+    padding: 6px 6px;
+    border-radius: 8px;
+}
+
+p {
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 20px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    color: #909090;
+}
+
+.fa {
+    padding: 0.3rem;
+}
+
+.home-icon {
+    cursor: pointer;
+}
+
+.home-icon:hover {
+    background-color: rgb(2, 97, 2);
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+
+.comment {
+    cursor: pointer;
+}
+
+.comment:hover {
+    background-color: rgb(2, 97, 2);
+    padding: 0.3rem;
+    border-radius: 8px;
+}
+
+.bookmark {
+    cursor: pointer;
+}
+
+.bookmark:hover {
+    background-color: rgb(2, 97, 2);
+    padding: 0.3rem;
+    border-radius: 4px;
+}
+
+.linked {
+    cursor: pointer;
+}
+
+.linked:hover {
+    background-color: rgb(2, 97, 2);
+    padding: 0.3rem;
+    border-radius: 10px;
+}
