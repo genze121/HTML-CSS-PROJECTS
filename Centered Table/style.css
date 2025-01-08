@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d4d4d4;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 30px 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    background-color: blue;
+    color: #fff;
+    font-weight: 700;
+}
+
+table th,
+td {
+    border: 1px solid #000;
+    padding: 20px 20px;
+    text-align: center;
+}
