@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.menu {
+    margin: 20px 20px;
+}
+
+.menu .bar {
+    width: 50px;
+    height: 6px;
+    background-color: rgb(183, 51, 7);
+    margin: 6px;
+}
+
+.container-menu {
+    margin: 20px 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.bar-1,
+.bar-2,
+.bar-3 {
+    width: 50px;
+    height: 6px;
+    background-color: #000;
+    margin: 8px;
+    transition: 0.4s;
+}
+
+.change .bar-1 {
+    transform: translate(0, 14px) rotate(-45deg);
+}
+
+.change .bar-2 {
+    opacity: 0;
+}
+
+.change .bar-3 {
+    transform: translate(0, -12px) rotate(45deg);
+}
