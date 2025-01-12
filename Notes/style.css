@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.notes {
+    margin: 30px 30px;
+}
+
+.danger {
+    border: 1px solid #fffafa;
+    padding: 20px 20px;
+    background-color: #fedddd;
+    border-left: 5px solid red;
+}
+
+.success {
+    border: 1px solid #fffafa;
+    padding: 20px 20px;
+    background-color: #ddffde;
+    border-left: 5px solid #015a04;
+    margin: 20px 0;
+}
+
+.warning {
+    border: 1px solid #fffafa;
+    padding: 20px 20px;
+    background-color: #fffece;
+    border-left: 5px solid rgb(202, 202, 0);
+    margin: 20px 0;
+}
+
+.info {
+    border: 1px solid #fffafa;
+    padding: 20px 20px;
+    background-color: #e7f3fe;
+    border-left: 5px solid #0971d2;
+    margin: 20px 0;
+}
+
+.default {
+    border: 1px solid #fffafa;
+    padding: 20px 20px;
+    background-color: #e4e4e4;
+    border-left: 5px solid #1f1f1f;
+    margin: 20px 0;
+}
