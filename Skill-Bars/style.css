@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skill-bar {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px 20px;
+    height: 92vh;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.skill-bar h4 {
+    margin: 20px 20px;
+}
+
+.container {
+    background-color: #ccc;
+    margin: 10px 20px;
+}
+
+.skills {
+    text-align: right;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.html {
+    background-color: green;
+    width: 90%;
+}
+
+.css {
+    width: 80%;
+    background-color: tomato;
+}
+
+.js {
+    width: 70%;
+    background-color: rgb(179, 179, 0);
+}
+.python {
+    width: 60%;
+    background-color: blue;
+}
+
+.java {
+    width: 50%;
+    background-color: salmon;
+}
+
+.git {
+    width: 40%;
+    background-color: darkorchid;
+}
