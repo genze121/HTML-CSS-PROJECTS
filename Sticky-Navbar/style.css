@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    box-shadow: 2px 2px 2px 2px #090909;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar ul > li {
+    list-style: none;
+    transition: all 0.5s;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.navbar ul > li:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    background-color: #ccc;
+    padding: 1rem;
+    color: #000;
+}
+
+.container {
+    margin: 20px 20px;
+}
