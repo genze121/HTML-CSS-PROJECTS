@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+}
+
+.navbar ul > li {
+    list-style: none;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.navbar ul > li:first-child {
+    cursor: pointer;
+    border-bottom: 5px solid red;
+}
+
+.navbar ul > li:hover {
+    cursor: pointer;
+    border-bottom: 5px solid red;
+}
