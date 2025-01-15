@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin: 20px 20px;
+}
+
+.navbar {
+    background-color: #f0f0f0;
+    width: 400px;
+    color: #000;
+    margin: 20px 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    line-height: 3;
+    padding: 0.5rem;
+    font-weight: 700;
+}
+
+.navbar ul > li:first-child {
+    background-color: green;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar ul > li:hover:not(:first-child) {
+    cursor: pointer;
+    background-color: rgb(156, 156, 156);
+    transition: o.6s;
+}
