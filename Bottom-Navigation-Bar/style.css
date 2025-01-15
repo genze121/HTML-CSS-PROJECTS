@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.navbar ul > li {
+    list-style: none;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.navbar ul > li:first-child {
+    background-color: green;
+    cursor: pointer;
+}
+
+.navbar ul > li:hover:not(:first-child) {
+    cursor: pointer;
+    background-color: #ececec;
+    color: #000;
+    transition: 0.6s;
+}
+
+.content h1 {
+    margin: 20px 20px;
+}
+
+.content p {
+    margin: 0 20px;
+    font-weight: 500;
+}
