@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .left ul {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar .left ul > li {
+    list-style: none;
+    padding: 1.6rem;
+}
+
+.navbar .left ul > li:hover {
+    background-color: #cecece;
+    cursor: pointer;
+    color: #000;
+    transition: 0.6s;
+}
+
+.navbar .middle ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .middle ul > li {
+    list-style: none;
+    background-color: rgb(1, 85, 1);
+    cursor: pointer;
+    padding: 1.6rem;
+}
+
+.navbar .middle ul > li:hover {
+    opacity: 0.8;
+}
+
+.navbar .right ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar .right ul > li {
+    cursor: pointer;
+    list-style: none;
+    padding: 1.6rem;
+}
+
+.navbar .right ul > li:hover {
+    background-color: #cecece;
+    padding: 1.6rem;
+    color: #000;
+    transition: 0.6s;
+}
+
+.content img {
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+}
+
+button {
+    background-color: red;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 10px #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
