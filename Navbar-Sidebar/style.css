@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #0e1217;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar .left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 1.5rem;
+    transition: all 0.5s;
+}
+
+.navbar .left:hover {
+    background-color: #7c7c7c;
+    cursor: pointer;
+}
+
+.navbar .right ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 40px;
+}
+
+.navbar .right ul > li {
+    list-style: none;
+    padding: 1.5rem;
+    transition: all 0.5s;
+}
+
+.navbar .right ul > li:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+}
+
+.side-nav {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.side-nav .side-items {
+    background-color: #0e1217;
+    width: 300px;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    overflow: hidden;
+    border-right: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.side-nav .side-items .items {
+    margin: 30px 0;
+}
+
+.side-nav .side-items .items a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    line-height: 3;
+    transition: all 0.5s;
+}
+
+.side-nav .items a:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.fa {
+    margin: 0 10px;
+    font-size: 20px !important;
+}
+
+.side-nav .content {
+    background-color: #0e1217;
+    color: #fff;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.side-nav .content h1 {
+    margin: 50px 0 0 20px;
+}
+
+.side-nav .content p {
+    margin: 20px 20px;
+}
