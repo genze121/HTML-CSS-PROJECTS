@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #cdcdcd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+
+.scroll {
+    background-color: #999696;
+    width: 100%;
+    margin: 100px 0;
+    position: fixed;
+    top: 0;
+}
+
+.scroll .scrolling {
+    background-color: green;
+    width: 0;
+    padding: 2px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.content {
+    margin: 130px 0;
+}
+
+.content h1 {
+    margin: 20px 20px;
+}
+
+.content p {
+    margin: 20px 20px;
+}
