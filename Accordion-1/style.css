@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion {
+    border: 1px solid #ccc;
+    margin: 20px 20px;
+    border-radius: 8px;
+    transition: all 0.5s;
+}
+
+.accordion-content {
+    background-color: #e6e6e6;
+    padding: 2rem;
+    display: none;
+}
+
+.accordion h2 {
+    margin: 30px 20px;
+}
+
+.accordion h2:after {
+    content: "+";
+    position: absolute;
+    right: 40px;
+    font-size: 30px;
+}
+
+.fa {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    padding: 10px;
+    font-size: 20px !important;
+}
+
+.active,
+.accordion:hover {
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px #e6e6e6;
+    background-color: #b6b6b6;
+}
+
+.accordion.active .accordion-content {
+    display: block;
+}
+
+.accordion,
+.active h2:after {
+    content: "-";
+}
