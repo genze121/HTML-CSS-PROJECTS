@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion {
+    border: 1px solid #ccc;
+    margin: 30px 30px;
+    border-radius: 8px;
+}
+
+.accordion .title {
+    padding: 20px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: rgb(173, 6, 6);
+    color: #fff;
+}
+
+.accordion .title:after {
+    content: "+";
+    position: absolute;
+    right: 60px;
+    font-size: 25px !important;
+}
+
+.accordion .title:hover {
+    cursor: pointer;
+    background-color: rgb(211, 6, 6);
+}
+
+.accordion .content {
+    padding: 2rem;
+    font-size: 18px;
+    background-color: rgb(214, 214, 235);
+    transition: 0.5s;
+    display: none;
+}
+
+.accordion.active .content {
+    display: block;
+}
+
+.accordion.active .title:after {
+    content: "-";
+    font-size: 25px !important;
+}
