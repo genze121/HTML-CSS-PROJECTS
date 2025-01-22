@@ -56,6 +56,7 @@
     width: 700px;
 }
 
-.tab-button .tab-content.active {
+.buttons button.active {
     display: block;
+    background-color: #ccc;
 }
