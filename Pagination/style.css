@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagination {
+    margin: 40px 20px;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 1rem;
+}
+
+.pagination a:hover:not(.active) {
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 8px;
+}
+
+.pagination .active {
+    background-color: rgb(16, 167, 49);
+    color: #fff;
+    cursor: pointer;
+}
