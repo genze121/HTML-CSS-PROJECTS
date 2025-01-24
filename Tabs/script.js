@@ -2,7 +2,6 @@ const buttons = document.querySelectorAll(".tab-button");
 
 for (var i = 0; i < buttons.length; i++) {
   buttons[i].addEventListener("click", function() {
-    console.log(this);
     var tabName = this.dataset.tab;
     const tabContent = document.getElementById(tabName);
 
