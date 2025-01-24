@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    text-shadow: 4px 4px #ff0000;
+}
+
+.footer {
+    position: fixed;
+    background-color: red;
+    width: 100%;
+    padding: 1rem;
+    bottom: 0;
+    left: 0;
+}
+
+.footer h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+}
