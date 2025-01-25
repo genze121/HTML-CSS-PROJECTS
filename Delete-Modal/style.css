@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.delete-button {
+    background-color: tomato;
+    border: none;
+    padding: 1rem;
+    margin: 20px 20px;
+    font-weight: 700;
+    color: #fff;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.delete-button:hover {
+    cursor: pointer;
+    background-color: rgb(174, 40, 17);
+}
+
+.modal {
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 1;
+    overflow: hidden;
+    padding: 1rem;
+    margin: auto;
+    display: none;
+}
+
+.modal .modal-content {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    width: 600px;
+    box-shadow: 2px 2px 2px 2px #afafaf;
+    border: 1px solid #eaeaea;
+}
+
+.modal-content .header {
+    text-align: center;
+}
+
+.modal-content .header h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.modal-content .header .fa {
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 20px;
+    margin: 0 20px;
+    background-color: #ccc;
+    border-radius: 50%;
+    padding: 10px 12px;
+}
+
+.header .fa:hover {
+    cursor: pointer;
+    background-color: #e8e6e6;
+}
+
+.modal-body {
+    padding: 1rem;
+}
+
+.modal-body p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.buttons {
+    padding: 1rem;
+    text-align: center;
+}
+
+.buttons .cancel {
+    background-color: #ccc;
+    border: none;
+    padding: 1rem;
+    font-weight: 700;
+    font-size: 15px;
+    width: 200px;
+}
+
+.buttons .cancel:hover {
+    cursor: pointer;
+    background-color: #dcdcdc;
+}
+
+.buttons .delete {
+    background-color: tomato;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    width: 200px;
+}
+
+.buttons .delete:hover {
+    cursor: pointer;
+    background-color: rgb(192, 37, 10);
+}
