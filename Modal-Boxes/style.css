@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #616161;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 8px;
+    margin: 20px 20px;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 1;
+    padding: 1rem;
+    display: none;
+    padding-top: 100px;
+}
+
+.modal-content {
+    background-color: #e8e8e8;
+}
+
+.modal-content .header {
+    background-color: red;
+    padding: 1rem;
+    color: #fff;
+}
+
+.modal-content .header h2 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.modal .modal-content .fa {
+    position: absolute;
+    right: 20px;
+    top: 120px;
+    margin: 0 10px;
+    font-size: 20px !important;
+}
+
+.modal-content .fa:hover {
+    cursor: pointer;
+}
+
+.modal-content .modal-body {
+    padding: 2rem;
+}
+
+.modal-body p {
+    margin: 10px 0;
+}
+
+.modal-footer {
+    background-color: red;
+    padding: 1rem;
+}
+
+.modal-footer h2 {
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+}
