@@ -12,7 +12,7 @@
 
     3) Screenshot - 3 [Sidepar Panel Video with Animation]
 
-https://github.com/user-attachments/assets/00d87ffb-1b43-4124-97bc-af9d48b1bcba
+  https://github.com/user-attachments/assets/00d87ffb-1b43-4124-97bc-af9d48b1bcba
 
 
 Credits:- [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
