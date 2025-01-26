@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Sliders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sliders">
+        <div class="slider">
+            <h4>Default Range</h4>
+            <input type="range" value="10" title="Default Range">
+        </div>
+
+        <div class="slider">
+            <h4>Square Range</h4>
+            <input type="range" value="0" class="square" title="Square Range" min="1" max="100">
+
+            <p>Value:- <span class="square-span">1</span></p>
+        </div>
+
+        <div class="slider">
+            <h4>Circle Range</h4>
+            <input type="range" value="0" class="circle" title="Circle Range" min="1" max="100">
+
+            <p>Value:- <span class="circle-span">1</span></p>
+        </div>
+
+        <div class="slider">
+            <h4>Image Range</h4>
+            <input type="range" value="0" class="image" title="Image Range" min="1" max="100">
+
+            <p>Value:- <span class="image-span">1</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
