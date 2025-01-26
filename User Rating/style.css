@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.user-rating {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #e6e6e6;
+    margin: 20px 20px;
+    height: 70vh;
+    padding: 1rem;
+}
+
+.user-rating span {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.fa {
+    font-size: 30px !important;
+}
+
+.checked {
+    color: rgb(255, 132, 0);
+}
+
+.user-rating p {
+    margin: 20px 10px;
+}
+
+.user-rating hr {
+    height: 5px;
+    background-color: #777575;
+}
+
+.progress-bar {
+    margin-top: 30px;
+    background-color: #ccc;
+    width: 80%;
+}
+
+.bar-one {
+    background-color: green;
+    width: 90%;
+    padding: 1rem;
+}
+
+.progress {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress .star {
+    position: relative;
+    top: 15px;
+    right: 80px;
+    font-weight: 700;
+}
+
+.progress .marks {
+    position: relative;
+    top: 15px;
+    left: 40px;
+    font-weight: 700;
+}
+
+.bar-two {
+    background-color: #1a98f1;
+    padding: 1rem;
+    width: 63%;
+}
+
+.bar-three {
+    background-color: #05bcd3;
+    padding: 1rem;
+    width: 15%;
+}
+
+.bar-four {
+    background-color: tomato;
+    padding: 1rem;
+    width: 6%;
+}
+
+.bar-five {
+    background-color: red;
+    padding: 1rem;
+    width: 20%;
+}
