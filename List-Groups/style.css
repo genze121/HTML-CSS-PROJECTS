@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.groups {
+    margin: 30px 30px;
+    background-color: #eeeeee;
+}
+
+.groups .group {
+    border: 1px solid #bcbcbc;
+    padding: 1rem;
+}
+
+.groups .group p{
+    font-weight: 500;
+    font-size: 20px;
+}
