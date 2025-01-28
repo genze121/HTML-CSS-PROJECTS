@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-one {
+    background-color: rgb(255, 207, 215);
+    height: 100vh;
+}
+
+.section-one h1 {
+    padding: 1rem;
+}
+
+.section-one p {
+    padding: 1rem;
+}
+
+.section-two {
+    background-color: rgb(248, 139, 120);
+    margin: 30px 0 0 0;
+    height: 100vh;
+}
+
+.section-two h1 {
+    padding: 1rem;
+}
+
+.section-two p {
+    padding: 1rem;
+}
