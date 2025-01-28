@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accordion {
+    background-color: #161616;
+    color: #fff;
+    margin: 20px 20px;
+}
+
+.accordion .title {
+    padding: 1rem;
+}
+
+.content {
+    background-color: #ccc;
+    color: #000;
+    max-height: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.content p{
+    margin: 20px 0;
+}
+
+.accordion .title h2::after {
+    content: "+";
+    position: absolute;
+    right: 50px;
+    font-weight: 700;
+    font-size: 30px !important;
+}
+
+.accordion .title:hover {
+    cursor: pointer;
+}
+
+.active .title h2::after {
+    content: "-";
+    font-size: 30px !important;
+}
