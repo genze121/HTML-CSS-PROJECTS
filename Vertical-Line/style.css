@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    height: 30vh;
+    margin: 30px 30px;
+}
+
+.line {
+    background-color: green;
+    width: 10px;
+    height: 30vh;
+    margin: auto;
+}
