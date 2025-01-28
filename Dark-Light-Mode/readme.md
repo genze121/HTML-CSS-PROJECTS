@@ -8,7 +8,7 @@
 
     2) Screenshot - 2 [Dark Mode]
 
-![image](https://github.com/user-attachments/assets/291c2869-ac37-4626-8574-3ef4037859f2)
+  ![image](https://github.com/user-attachments/assets/291c2869-ac37-4626-8574-3ef4037859f2)
 
 
 Credits:- [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
