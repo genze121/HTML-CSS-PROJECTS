@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    height: 300vh;
+}
+
+.container h1 {
+    padding: 1rem;
+}
+
+.container h3 {
+    padding: 1rem;
+}
+
+.container p {
+    padding: 1rem;
+}
+
+.container h2 {
+    padding: 1rem;
+    position: fixed;
+}
