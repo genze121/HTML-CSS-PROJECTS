@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid #ccc;
+    margin: 20px 20px;
+    height: 40vh;
+    padding: 1rem;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+.one {
+    margin: 30px 0;
+    background-color: red;
+    padding: 2px;
+}
+
+.two {
+    margin: 30px 0;
+    border: dashed;
+    color: blue;
+}
+
+.three {
+    padding: 5px;
+    background-color: purple;
+    border-radius: 10px;
+}
+
+.four {
+    margin: 30px 0;
+    border: dotted;
+    color: tomato;
+}
