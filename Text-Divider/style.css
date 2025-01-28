@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divider {
+    background-color: #ccc;
+    border: 1px solid #ccc;
+    height: 50vh;
+    margin: 30px 30px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.line::before,
+.line::after {
+    content: "";
+    flex: 1;
+    background-color: red;
+    margin: 5px;
+    padding: 4px;
+}
