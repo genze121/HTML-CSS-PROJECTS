@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    border: none;
+    margin: 20px 20px;
+    width: 200px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.content {
+    border: 1px solid #000;
+    background-color: #ccc;
+    height: 40vh;
+    margin: 20px 20px;
+}
+
+.content .text {
+    color: #000;
+    font-weight: 700;
+    margin: 20px 20px;
+}
