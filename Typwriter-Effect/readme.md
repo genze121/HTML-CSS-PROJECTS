@@ -5,10 +5,6 @@
 https://github.com/user-attachments/assets/24a785f8-fc35-45ca-81ca-212d477e3d45
 
 
-Credits:- [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
-
-
-
     > We can also use set intervals to achieve the typewriter effect 
 
 ```js
@@ -33,3 +29,5 @@ function typewriter() {
 }
 
 ```
+
+Credits:- [Tirtha Sharma](https://github.com/genze121 "Tirtha Sharma")
