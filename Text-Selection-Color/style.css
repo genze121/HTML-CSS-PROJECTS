@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content {
+    border: 1px solid #000;
+    margin: 30px 30px;
+    height: 10vh;
+    display: flex;
+}
+
+.line {
+    width: 2px;
+    height: 10vh;
+    background-color: red;
+    margin: auto;
+}
+
+.left {
+    font-weight: 700;
+    margin: auto;
+    font-size: 20px;
+}
+
+.right {
+    font-weight: 700;
+    margin: auto;
+    font-size: 20px;
+}
+
+.right::selection {
+    background-color: yellow;
+    color: red;
+}
