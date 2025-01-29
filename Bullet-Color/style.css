@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    border: 1px solid #000;
+    background-color: #ccc;
+    margin: 30px 30px;
+    padding: 1rem;
+}
+
+.box ul > li {
+    margin: 10px 50px;
+    font-size: 20px;
+}
+
+ul > li::marker {
+    color: red;
+    font-size: 30px;
+}
