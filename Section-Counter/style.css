@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section-counter {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.counter {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px #1c1c1c;
+}
+
+.fa {
+    color: #fff;
+    font-size: 60px;
+}
+
+.counter h4,
+p {
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .section-counter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
