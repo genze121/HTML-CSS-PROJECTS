@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.skill-bar {
+    margin: 30px 30px;
+    height: 60vh;
+}
+
+.skill {
+    background-color: #ccc;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.skill-one {
+    padding: 1rem;
+    background-color: green;
+    width: 90%;
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+}
+
+.skill-two {
+    background-color: blue;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+    width: 80%;
+}
+
+.skill-three {
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    width: 70%;
+    padding: 1rem;
+    text-align: right;
+}
+
+.skill-four {
+    background-color: tomato;
+    padding: 1rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: right;
+    width: 60%;
+}
+
+.skill-five {
+    background-color: rgb(29, 50, 43);
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+    width: 50%;
+}
+
+.skill-six {
+    background-color: blueviolet;
+    padding: 1rem;
+    width: 40%;
+    color: #fff;
+    font-weight: 700;
+    text-align: right;
+}
