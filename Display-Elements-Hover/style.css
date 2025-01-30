@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hover-element {
+    background-color: #ccc;
+    margin: 20px 20px;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.hover-element h5 {
+    font-size: 20px;
+}
+
+.display-hover {
+    margin: 20px 20px;
+    display: none;
+}
+
+.hover-element:hover + .display-hover {
+    display: block;
+    color: red;
+    font-weight: 700;
+    font-size: 30px;
+}
