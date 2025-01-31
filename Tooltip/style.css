@@ -113,13 +113,13 @@
     padding: 0.5rem;
     border-radius: 8px;
     position: absolute;
-    right: 150px;
+    left: 190px;
     top: 325px;
     opacity: 0;
     transition: opacity 0.4s;
 }
 
-.tooltip-text-right::before {
+.tooltip-text-right::after {
     content: "";
     position: absolute;
     top: 50%;
