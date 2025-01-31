@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tooltip-top {
+    margin: 60px 60px;
+}
+
+.tooltip-text-top {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.tooltip-text-top::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+}
+
+.tooltip-top:hover .tooltip-text-top {
+    opacity: 1;
+}
+
+.tooltip-bottom {
+    margin: 20px 60px;
+}
+
+.tooltip-text-bottom {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 170px;
+    left: 60px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.tooltip-text-bottom::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border-width: 8px;
+    margin-left: -2px;
+    border-style: solid;
+    border-color: #000 transparent transparent transparent;
+    transform: rotate(-180deg);
+}
+
+.tooltip-bottom:hover .tooltip-text-bottom {
+    opacity: 1;
+}
+
+.tooltip-left {
+    margin: 80px 150px;
+}
+
+.tooltip-text-left {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 8px;
+    position: absolute;
+    left: 10px;
+    top: 230px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.tooltip-text-left::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -8px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #000 transparent transparent transparent;
+    transform: rotate(-90deg);
+}
+
+.tooltip-left:hover .tooltip-text-left {
+    opacity: 1;
+}
+
+.tooltip-right {
+    margin: 10px 60px;
+}
+
+.tooltip-text-right {
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    padding: 0.5rem;
+    border-radius: 8px;
+    position: absolute;
+    right: 150px;
+    top: 325px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.tooltip-text-right::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -8px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #000 transparent transparent transparent;
+    transform: rotate(90deg);
+}
+
+.tooltip-right:hover .tooltip-text-right {
+    opacity: 1;
+}
