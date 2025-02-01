@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.picker {
+    margin: 20px 20px;
+}
+
+input[type="color"] {
+    width: 300px;
+    height: 60px;
+}
