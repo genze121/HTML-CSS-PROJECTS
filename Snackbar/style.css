@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: red;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+    margin: 30px 30px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(168, 6, 6);
+}
+
+#snackbar {
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    position: fixed;
+    bottom: 50px;
+    left: 40%;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 400px;
+    visibility: hidden;
+    z-index: 1;
+}
+
+#snackbar.show {
+    visibility: visible;
+}
