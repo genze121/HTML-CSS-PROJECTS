@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hover-button {
+    background-color: tomato;
+    padding: 1rem;
+    border: none;
+    width: 200px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 40px 40px;
+    border-radius: 8px;
+}
+
+.hover-button:hover {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    background-color: #ccc;
+    width: 200px;
+    border-radius: 8px;
+    position: absolute;
+    left: 40px;
+    top: 90px;
+    display: none;
+}
+
+.dropdown-content ul > li {
+    list-style: none;
+    padding: 1rem;
+    font-weight: 700;
+    transition: all 0.4s;
+}
+
+.dropdown-content ul > li:hover {
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 8px;
+    transform: scale(1.02);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
