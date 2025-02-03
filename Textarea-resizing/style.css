@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.textarea-ele {
+    border: 1px solid #ccc;
+    margin: 30px 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+    background-color: #ccc;
+    height: 50vh;
+}
+
+textarea {
+    margin: 30px 30px;
+    padding: 1rem;
+    outline: none;
+    resize: none;
+}
+
+@media only screen and (max-width: 900px) {
+    .textarea-ele {
+        width: 550px;
+        margin: 30px 30px;
+    }
+
+    textarea {
+        width: 300px;
+    }
+}
