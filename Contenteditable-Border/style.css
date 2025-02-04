@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.editable {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 30px 30px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+[contenteditable] {
+    outline: none;
+}
