@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 30px 30px;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.text p {
+    -webkit-user-select: none;
+    user-select: none;
+}
