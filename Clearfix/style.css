@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-one {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 30px 30px;
+    height: 20vh;
+    padding: 10px;
+}
+
+.container-one img {
+    float: right;
+}
+
+.container-two {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 30px 30px;
+    padding: 10px;
+    overflow: auto;
+}
+
+.container-two img {
+    float: right;
+}
+
+h2 {
+    margin: 10px 30px;
+}
