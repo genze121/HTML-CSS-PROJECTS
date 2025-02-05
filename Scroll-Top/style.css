@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.active {
+    background-color: red;
+}
+
+.navbar a:hover:not(.active) {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+.content {
+    margin: 20px 20px;
+}
+
+.scroll {
+    background-color: #000;
+    color: #fff;
+    position: fixed;
+    bottom: 20px;
+    padding: 1rem;
+    border-radius: 8px;
+    right: 20px;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.scroll:hover {
+    cursor: pointer;
+    background-color: red;
+}
