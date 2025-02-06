@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 30px 30px;
+    padding: 2rem;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+}
