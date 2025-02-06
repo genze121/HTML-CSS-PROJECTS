@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container img {
+    width: 100%;
+    height: 100vh;
+    object-fit: fill;
+}
+
+.text{
+    position: fixed;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #000000;
+    padding: 2rem;
+}
+
+p{
+    margin: 15px 0;
+}
