@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid #ccc;
+    background-color: #ccc;
+    margin: 30px 30px;
+    height: 20vh;
+}
+
+input {
+    padding: 1rem;
+    margin: 40px 20px;
+}
+
+button {
+    background-color: red;
+    padding: 1rem;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(155, 5, 5);
+}
