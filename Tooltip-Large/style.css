@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 10px;
+    height: 60vh;
+    border: 2px solid #000;
+    background-color: #080606;
+    margin: 30px 40px;
+}
+
+.tooltip-one {
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+}
+
+.tooltip-one:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #000 transparent transparent transparent;
+    transform: rotate(90deg);
+    margin-top: -5px;
+}
+
+.tooltip-two {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    top: 150px;
+    left: 60px;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.tooltip-two::after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #000 transparent transparent transparent;
+    margin-top: -5px;
+    transform: rotate(90deg);
+}
+
+.tooltip-three {
+    position: absolute;
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    top: 250px;
+    left: 60px;
+}
+
+.tooltip-three::after {
+    content: "";
+    position: absolute;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #000 transparent transparent transparent;
+    right: 100%;
+    top: 50%;
+    transform: rotate(90deg);
+    margin-top: -5px;
+}
+
+.tooltip-four {
+    position: absolute;
+    top: 350px;
+    left: 60px;
+    background-color: #000;
+    color: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+}
+
+.tooltip-four::after {
+    content: "";
+    position: absolute;
+    right: 100%;
+    top: 50%;
+    margin-top: -5px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #000 transparent transparent transparent;
+    transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 500px) {
+    .tooltip-one {
+        width: 200px;
+        padding: 10px 10px;
+    }
+    .tooltip-two {
+        width: 200px;
+        padding: 10px 10px;
+    }
+    .tooltip-three {
+        width: 200px;
+        padding: 10px 10px;
+    }
+    .tooltip-four {
+        width: 200px;
+        padding: 10px 10px;
+    }
+}
