@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ccc;
+    border: 1px solid #000;
+    margin: 30px 30px;
+    height: 100px;
+}
+
+.line {
+    border: 5px solid green;
+    position: absolute;
+    height: 100px;
+    left: 50%;
+}
