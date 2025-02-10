@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.countdown {
+    background-color: #ccc;
+    border: 1px solid #000;
+    height: 90vh;
+    margin: 30px 30px;
+}
+
+.timer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h3{
+    font-size: 60px;
+}
