@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.loader {
+    background-color: #fafafa;
+    border: 1px solid #000;
+    margin: 30px 30px;
+    height: 40vh;
+}
+
+.loader-one {
+    width: 40px;
+    height: 40px;
+    border: 20px solid #ccc;
+    border-radius: 50%;
+    margin: 80px auto;
+    padding: 2rem;
+    border-top: 20px solid red;
+    border-right: 20px solid red;
+    border-bottom: 20px solid red;
+    animation: spinner 2s linear infinite;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
