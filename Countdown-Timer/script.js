@@ -1,6 +1,6 @@
 const countTimer = document.querySelector(".count-timer");
 
-const countTimerElemet = new Date("Feb 10, 2025 15:37:25").getTime();
+const countTimerElemet = new Date("Feb 11, 2025 15:37:25").getTime();
 
 let x = setInterval(function() {
   let now = new Date().getTime();
