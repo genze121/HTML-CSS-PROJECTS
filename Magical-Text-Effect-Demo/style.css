@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ccc;
+    border: 1px solid #000;
+    margin: 30px 30px;
+    height: 50vh;
+}
+
+.text {
+    margin: 20px 20px;
+}
+
+h2 {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 1rem;
+    width: 400px;
+    border: none;
+    outline: none;
+}
+
+input::placeholder {
+    font-weight: 700;
+    font-size: 15px;
+}
