@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.one {
+    border: 20px solid red;
+}
+
+.two {
+    border: 20px solid purple;
+}
+
+@media only screen and (max-width: 500px) {
+    .one {
+        width: 200px;
+    }
+
+    .two {
+        width: 200px;
+    }
+}
