@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar .left {
+    margin: 0 30px;
+}
+
+.navbar .left h1 {
+    color: #fff;
+}
+
+.navbar .right a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.active {
+    background-color: red;
+    padding: 1rem;
+}
+
+.content {
+    margin: 20px 20px;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(239, 15, 202);
+    border-radius: 10px;
+}
