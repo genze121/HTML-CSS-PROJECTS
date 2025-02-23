@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar .left {
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 20px;
+}
+
+.navbar .right {
+    margin: 10px 20px;
+}
+
+.navbar .right a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.scroll-indicator {
+    position: fixed;
+    top: 50px;
+    background-color: #33fef7;
+    width: 100%;
+}
+
+.scroller-bar {
+    background-color: rgb(255, 0, 251);
+    padding: 10px;
+    width: 1%;
+}
+
+.content {
+    margin: 30px 30px;
+    line-height: 1.5;
+}
+
+.content h3 {
+    margin: 10px 0;
+}
