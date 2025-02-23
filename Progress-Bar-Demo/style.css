@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.progress {
+    margin: 30px 30px;
+    background-color: #ccc;
+}
+
+.progress-bar {
+    background-color: green;
+    padding: 1rem;
+    width: 1%;
+    font-weight: 700;
+    color: #fff;
+}
+
+button {
+    background-color: red;
+    border: none;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 30px;
+}
+
+button:hover {
+    cursor: pointer;
+}
