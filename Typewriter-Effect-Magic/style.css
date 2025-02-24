@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: #ffff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+p {
+    margin: 20px 0;
+}
