@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+.container .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    background-color: red;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+    color: #fff;
+    font-size: 30px;
+}
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+}
