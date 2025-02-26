@@ -10,9 +10,9 @@ tabLinks.forEach(element => {
       tabContentsData[i].style.display = "none";
     }
 
-    const tabLinksdata = document.querySelectorAll(".tab-links");
-    for (let i = 0; i < tabLinksdata.length; i++) {
-      tabLinksdata[i].classList.remove("show");
+    const tabLinksData = document.querySelectorAll(".tab-links");
+    for (let i = 0; i < tabLinksData.length; i++) {
+      tabLinksData[i].classList.remove("show");
     }
 
     tabContent.style.display = "block";
