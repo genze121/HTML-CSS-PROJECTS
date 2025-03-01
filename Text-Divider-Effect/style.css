@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.text::before,
+.text::after {
+    content: "";
+    background-color: red;
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+}
