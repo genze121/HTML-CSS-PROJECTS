@@ -12,31 +12,35 @@
 .container img {
     width: 100%;
     height: auto;
+    display: block;
 }
 
-.container .overlay {
+.overlay {
     position: absolute;
-    bottom: 0;
+    top: 0;
     left: 0;
+    bottom: 0;
     right: 0;
-    height: 0;
+    height: 100%;
     width: 100%;
     background-color: red;
-    transition: all 0.5s;
     overflow: hidden;
+    transition: all 0.5s;
+    opacity: 0;
 }
 
-.text {
+.icon {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-weight: 700;
+}
+
+.fa {
+    font-size: 120px;
     color: #fff;
-    font-size: 30px;
 }
 
 .container:hover .overlay {
-    top: 0;
-    height: 100%;
+    opacity: 1;
 }
