@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid #000;
+    display: block;
+    height: 100vh;
+    margin: 30px 30px;
+    padding: 10px 10px;
+}
+
+.container span {
+    display: block;
+    margin: 15px 0;
+}
+
+.cursor-one {
+    cursor: alias;
+}
+
+.cursor-two {
+    cursor: all-scroll;
+}
+
+.cursor-three {
+    cursor: e-resize;
+}
+
+.cursor-four {
+    cursor: auto;
+}
+
+.cursor-five {
+    cursor: cell;
+}
+
+.cursor-six {
+    cursor: pointer;
+}
+
+.cursor-seven {
+    cursor: no-drop;
+}
+
+.cursor-eight {
+    cursor: not-allowed;
+}
+
+.cursor-nine {
+    cursor: progress;
+}
+
+.cursor-ten {
+    cursor: text;
+}
+
+.cursor-eleven {
+    cursor: copy;
+}
+
+.cursor-twelve {
+    cursor: crosshair;
+}
+
+.cursor-thirteen {
+    cursor: move;
+}
+
+.cursor-fourteen {
+    cursor: help;
+}
+
+.cursor-fifteen {
+    cursor: context-menu;
+}
+
+.cursor-sixteen {
+    cursor: wait;
+}
+
+.cursor-seventeen {
+    cursor: none;
+}
+
+.cursor-eighteen {
+    cursor: default;
+}
+
+.cursor-nineteen {
+    cursor: zoom-in;
+}
+
+.cursor-twenty {
+    cursor: zoom-out;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(113, 113, 113);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: red;
+}
