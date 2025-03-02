@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.container button {
+    display: block;
+}
+
+.click {
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    width: 150px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: 0 10px #000;
+}
+
+.click:hover {
+    cursor: pointer;
+}
+
+.click:active {
+    box-shadow: 0 5px #000;
+    transform: translateY(5px);
+}
+
+.hover-me {
+    margin: 40px 0;
+    background-color: orangered;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 20px 20px;
+    width: 200px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.hover-me span {
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.hover-me span::after {
+    content: "\00bb";
+    position: absolute;
+    margin: 0 5px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.hover-me:hover {
+    cursor: pointer;
+}
+
+.hover-me:hover span::after {
+    opacity: 1;
+}
+
+.hover-me:hover span {
+    padding-right: 10px;
+}
