@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    padding: 1rem;
+    margin: 20px 20px;
+}
+
+.navbar a {
+    color: #000;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.navbar a:hover {
+    background-color: #ccc;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+.navbar a.active {
+    background-color: #1392fd;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
