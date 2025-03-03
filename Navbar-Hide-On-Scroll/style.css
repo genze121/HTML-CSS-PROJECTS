@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 1rem;
+    transition: top 0.5s;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.content {
+    margin: 60px 15px;
+}
+
+.content h1 {
+    margin: 15px 0;
+}
+
+.content h2 {
+    margin: 15px 0;
+}
+
+.content h3 {
+    margin: 15px 0;
+}
