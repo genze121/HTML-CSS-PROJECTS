@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+h2{
+    margin: 20px 0;
+}
+
+textarea{
+    padding: 1rem;
+}
+
+textarea::placeholder{
+    color: red;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
