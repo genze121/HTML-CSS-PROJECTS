@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+    padding: 1rem;
+}
+
+.navbar a.active {
+    background-color: red;
+    color: #fff;
+}
+
+.content{
+    margin: 80px 20px 20px 20px;
+}
+
+.content h1{
+    margin: 20px 0;
+}
