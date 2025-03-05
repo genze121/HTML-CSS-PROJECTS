@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.navbar .left {
+    margin: 20px;
+    font-weight: 700;
+}
+
+.navbar .right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 20px;
+}
+
+.navbar .right ul > li {
+    list-style: none;
+}
+
+.content {
+    margin: 70px 10px 10px 10px;
+}
