@@ -118,3 +118,20 @@
     background-color: red;
     border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
 }
+
+.plus {
+    height: 100px;
+    width: 20px;
+    background-color: red;
+    margin: 0 50px;
+}
+
+.plus::after {
+    content: "";
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+    top: 520px;
+    left: 70px;
+}
