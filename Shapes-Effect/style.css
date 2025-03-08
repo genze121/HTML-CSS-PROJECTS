@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+    border: 1px solid #000;
+    height: 80vh;
+}
+
+.shapes {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+    gap: 40px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid #000;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.parallelogram {
+    width: 200px;
+    height: 100px;
+    background-color: #ccc;
+    border: 1px solid #000;
+    transform: skew(20deg);
+}
+
+.trapezoid {
+    border-bottom: 100px solid #ccc;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    width: 200px;
+    height: 100px;
+}
+
+.triangle-up {
+    border-bottom: 150px solid #ccc;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    width: 0;
+    height: 100px;
+}
+
+.triangle-down {
+    border-top: 150px solid #ccc;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    height: 100px;
+    width: 0;
+}
+
+.triangle-left {
+    border-right: 150px solid #ccc;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    width: 0;
+    height: 100px;
+}
+
+.triangle-right {
+    border-left: 150px solid #ccc;
+    border-top: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    width: 0;
+    height: 100px;
+}
+
+.rhombus {
+    border-bottom: 150px solid #ccc;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+}
+
+.rhombus-one {
+    border-top: 150px solid #ccc;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    position: relative;
+    bottom: -149px;
+    left: -180px;
+}
+
+.egg-shape {
+    width: 150px;
+    height: 250px;
+    background-color: red;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
