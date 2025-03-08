@@ -7,7 +7,7 @@
 .container {
     margin: 30px 30px;
     border: 1px solid #000;
-    height: 80vh;
+    height: 100vh;
 }
 
 .shapes {
@@ -132,6 +132,51 @@
     height: 20px;
     position: absolute;
     background-color: red;
-    top: 520px;
+    top: 540px;
     left: 70px;
+}
+
+.cone {
+    border-top: 150px solid red;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-radius: 50%;
+}
+
+.base {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.base::before {
+    content: "";
+    border-bottom: 150px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 356px;
+}
+
+.pointer {
+    width: 200px;
+    height: 80px;
+    background-color: red;
+}
+
+.pointer::before {
+    content: "";
+    border-left: 80px solid red;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    position: absolute;
+    right: 458px;
+}
+
+.pointer::after {
+    content: "";
+    border-left: 80px solid #fff;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    position: absolute;
 }
