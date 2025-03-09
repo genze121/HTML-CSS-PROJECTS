@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.shapes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+.diamond-narrow-shape {
+    border-bottom: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+.diamond-narrow-shape::after {
+    content: "";
+    position: absolute;
+    border-top: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    top: 100px;
+    left: -80px;
+    bottom: 0;
+    right: 0;
+}
+
+.diamond-shield-shape {
+    border-bottom: 30px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+.diamond-shield-shape::after {
+    content: "";
+    position: absolute;
+    border-top: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    top: 30px;
+    left: -80px;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+}
+
+.hexagon-shape {
+    width: 160px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    top: 100px;
+}
+
+.hexagon-shape::before {
+    content: "";
+    position: absolute;
+    border-bottom: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    top: -102px;
+}
+
+.hexagon-shape::after {
+    content: "";
+    position: absolute;
+    border-top: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    top: 82px;
+    bottom: 0;
+    right: 0;
+}
