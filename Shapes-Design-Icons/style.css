@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.shapes {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.moon {
+    height: 100px;
+    width: 100px;
+    box-shadow: 20px 20px 0 0 red;
+    border-radius: 50%;
+}
+
+.pac-man {
+    border-right: 60px solid transparent;
+    border-left: 60px solid red;
+    border-top: 60px solid red;
+    border-bottom: 60px solid red;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    margin: 20px 20px;
+}
+
+.diamond {
+    border-top: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    position: relative;
+    top: 50px;
+}
+
+.diamond::before {
+    content: "";
+    position: absolute;
+    border-bottom: 50px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 100px;
+    height: 0;
+    top: -150px;
+    left: -80px;
+}
+
+.egg {
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.narrow-diamond {
+    border-bottom: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+.narrow-diamond::after {
+    content: "";
+    position: absolute;
+    border-top: 100px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    top: 100px;
+    left: -80px;
+}
+
+.pentagon {
+    border-bottom: 200px solid red;
+    border-left: 150px solid transparent;
+    border-right: 140px solid transparent;
+    width: 0;
+    height: 0;
+    position: relative;
+}
+
+.pentagon::after {
+    content: "";
+    position: absolute;
+    border-top: 200px solid red;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    height: 0;
+    width: 150px;
+    top: 201px;
+    left: -150px;
+}
