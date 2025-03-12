@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slideshow Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="mySlides fade">
+            <div class="number-text">1/6</div>
+            <img src="https://www.w3schools.com/howto/img_5terre_wide.jpg" alt="Terre">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="number-text">2/6</div>
+            <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="Mountains">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="number-text">3/6</div>
+            <img src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="Lights">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="number-text">4/6</div>
+            <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="Nature">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="number-text">5/6</div>
+            <img src="https://www.w3schools.com/howto/img_snow_wide.jpg" alt="Snow">
+        </div>
+
+        <div class="mySlides fade">
+            <div class="number-text">6/6</div>
+            <img src="https://www.w3schools.com/howto/img_woods_wide.jpg" alt="Woods">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <div class="caption-text">
+            <h1></h1>
+        </div>
+
+        <div class="row">
+            <div class="gallery">
+                <img class="demo" src="https://www.w3schools.com/howto/img_5terre_wide.jpg" alt="Terre"
+                    onclick="currentSlides(1)" height="160">
+            </div>
+
+            <div class="gallery">
+                <img class="demo" src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="Mountains"
+                    onclick="currentSlides(2)" height="160">
+            </div>
+
+            <div class="gallery">
+                <img class="demo" src="https://www.w3schools.com/howto/img_lights_wide.jpg" alt="Lights"
+                    onclick="currentSlides(3)" height="160">
+            </div>
+
+            <div class="gallery">
+                <img class="demo" src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="Nature"
+                    onclick="currentSlides(4)" height="160">
+            </div>
+
+            <div class="gallery">
+                <img class="demo" src="https://www.w3schools.com/howto/img_snow_wide.jpg" alt="Snow"
+                    onclick="currentSlides(5)" height="160">
+            </div>
+
+            <div class="gallery">
+                <img class="demo" src="https://www.w3schools.com/howto/img_woods_wide.jpg" alt="Woods"
+                    onclick="currentSlides(6)" height="160">
+            </div>
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
