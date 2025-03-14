@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 40px 40px;
+}
+
+.fa {
+    font-size: 120px;
+}
