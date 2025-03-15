@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 15px;
+    padding: 10px;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+}
+
+.navbar a.active {
+    background-color: rgb(255, 51, 0);
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.scroll-indicator {
+    background-color: #ccc;
+    position: fixed;
+    top: 55px;
+    width: 100%;
+}
+
+.scroll-indicator .bar {
+    background-color: red;
+    padding: 5px;
+    width: 0%;
+}
+
+.content {
+    margin: 80px 10px 10px 10px;
+}
