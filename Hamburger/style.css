@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.bar {
+    width: 35px;
+    height: 6px;
+    background-color: #000;
+    margin: 5px;
+    transition: all 0.5s;
+}
+
+.bar:hover {
+    cursor: pointer;
+}
+
+.change .bar-1 {
+    transform: translate(0, 10px) rotate(-45deg);
+}
+
+.change .bar-2 {
+    opacity: 0;
+}
+
+.change .bar-3 {
+    transform: translate(0, -10px) rotate(45deg);
+}
