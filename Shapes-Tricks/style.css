@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.triangle-top-left-shape {
+    border-top: 100px solid red;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-top-right-shape {
+    border-top: 100px solid red;
+    border-left: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-bottom-left-shape {
+    border-bottom: 100px solid red;
+    border-right: 100px solid transparent;
+    border-top: 100px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-bottom-right-shape {
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+    border-top: 100px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.hexagon {
+    width: 160px;
+    height: 80px;
+    background-color: red;
+    border: 1px solid #000;
+    position: relative;
+    top: 40px;
+}
+
+.hexagon::before {
+    content: "";
+    border-bottom: 80px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: -82px;
+}
+
+.hexagon::after {
+    content: "";
+    position: absolute;
+    border-top: 80px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+    top: 80px;
+}
+
+.octagon {
+    width: 240px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    top: 50px;
+}
+
+.octagon::before {
+    content: "";
+    position: absolute;
+    border-bottom: 80px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 80px;
+    top: -80px;
+}
+
+.octagon::after {
+    content: "";
+    position: absolute;
+    border-top: 80px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 80px;
+    top: 80px;
+}
+
+.cone {
+    border-top: 200px solid red;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+}
+
+.cross-shape {
+    width: 150px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    top: 50px;
+}
+
+.cross-shape::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 150px;
+    background-color: red;
+    top: -60px;
+    left: 60px;
+}
