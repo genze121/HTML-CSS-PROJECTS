@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.tab-links {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+    font-weight: 700;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+.tab-links:hover {
+    cursor: pointer;
+}
+
+.tab-content {
+    border: 1px solid #000;
+    padding: 1rem;
+    margin: 20px 20px;
+    position: relative;
+    top: -20px;
+    height: 30vh;
+    display: none;
+}
+
+.tab-content h1 {
+    margin: 20px 0;
+}
+
+.buttons .tab-links.active {
+    background-color: #ccc;
+    color: #000;
+}
