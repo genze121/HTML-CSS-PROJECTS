@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.rectangle {
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+.parallelogram {
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    border: 1px solid #000;
+    transform: skew(20deg);
+}
+
+.oval {
+    width: 200px;
+    height: 80px;
+    background-color: red;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.trapezoid {
+    border-bottom: 120px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 300px;
+    height: 0;
+}
+
+.triangle-up {
+    border-bottom: 120px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-down {
+    border-top: 120px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-left {
+    border-right: 120px solid red;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-right {
+    border-left: 120px solid red;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-top-left {
+    border-top: 140px solid red;
+    border-bottom: 90px solid transparent;
+    border-right: 140px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.egg {
+    width: 200px;
+    height: 250px;
+    background-color: red;
+    border: 1px solid #000;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.moon {
+    width: 120px;
+    height: 120px;
+    box-shadow: 20px 20px 0 0 red;
+    border-radius: 50%;
+}
+
+.bookmark {
+    border-top: 40px solid red;
+    border-bottom: 40px solid transparent;
+    border-left: 40px solid red;
+    border-right: 40px solid red;
+}
+
+.pac-man-one {
+    border-left: 80px solid red;
+    border-right: 80px solid transparent;
+    border-top: 80px solid red;
+    border-bottom: 80px solid red;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.pac-man-two {
+    width: 120px;
+    height: 120px;
+    border-left: 80px solid red;
+    border-right: 80px solid transparent;
+    border-top: 80px solid red;
+    border-bottom: 80px solid red;
+    border-radius: 50%;
+}
+
+.diamond {
+    border-top: 120px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.diamond::before {
+    content: "";
+    border-bottom: 60px solid red;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    width: 100px;
+    position: absolute;
+    bottom: 136px;
+    right: 221px;
+}
