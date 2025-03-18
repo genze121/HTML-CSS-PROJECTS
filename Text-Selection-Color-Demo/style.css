@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.selection .middle {
+    width: 5px;
+    background-color: red;
+    padding: 2px;
+    height: 40px;
+}
+
+.selection .right::selection {
+    background-color: yellow;
+    color: red;
+}
