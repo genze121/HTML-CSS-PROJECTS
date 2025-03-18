@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+}
+
+.navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 1rem;
+    transition: all 0.5s;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+.navbar a.active {
+    background-color: red;
+}
+
+.content {
+    color: #fff;
+    margin: 60px 20px 20px 20px;
+}
+
+.navbar.blurry {
+    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: blur(2px);
+}
