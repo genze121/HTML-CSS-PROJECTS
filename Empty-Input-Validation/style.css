@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+input[type="text"] {
+    padding: 10px;
+}
+
+button {
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
