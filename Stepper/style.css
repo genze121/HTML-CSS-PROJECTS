@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.stepper {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 40vh;
+}
+
+.step-one {
+    background-color: red;
+    padding: 20px 25px;
+    color: #fff;
+    border-radius: 50%;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+}
+
+.step-one::after {
+    content: "";
+    width: 200px;
+    height: 20px;
+    background-color: red;
+    position: absolute;
+}
+
+.step-two {
+    background-color: red;
+    position: relative;
+    left: 120px;
+    border-radius: 50%;
+    padding: 20px 25px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.step-two::after {
+    content: "";
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    background-color: red;
+}
+
+.step-three {
+    position: relative;
+    left: 240px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 25px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.step-three::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 20px;
+    background-color: red;
+}
+
+.step-four {
+    position: relative;
+    left: 380px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 25px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.step-four::after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 20px;
+}
+
+.step-five {
+    position: relative;
+    left: 520px;
+    background-color: red;
+    padding: 20px 25px;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.step-five::after {
+    content: "";
+    position: absolute;
+    background-color: red;
+    width: 200px;
+    height: 20px;
+}
+
+.step-six {
+    position: relative;
+    left: 680px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 25px;
+    border-radius: 50%;
+    font-size: 20px;
+}
