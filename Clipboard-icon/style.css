@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+input[type="text"] {
+    padding: 1rem;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]:focus {
+    outline: 1px solid #8e8d8d;
+}
+
+span {
+    position: relative;
+    right: 40px;
+}
+
+span:hover {
+    cursor: pointer;
+}
