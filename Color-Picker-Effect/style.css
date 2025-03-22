@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+input[type="color"] {
+    width: 200px;
+    margin: 20px 0;
+}
