@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px;
+}
+
+.box {
+    background-color: #ccc;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0 #000;
+}
+
+.text {
+    margin: 20px 0;
+    font-weight: 700;
+    color: red;
+    font-size: 20px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.box:hover + .text {
+    opacity: 1;
+}
