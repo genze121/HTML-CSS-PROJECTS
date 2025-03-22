@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px 30px;
+}
+
+.container .box {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #ccc;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 0 10px 0 rgba(0, 0, 0, 0.4);
+    transition: all 0.5s;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
