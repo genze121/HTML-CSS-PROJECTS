@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.number-text {
+    position: absolute;
+    color: #fff;
+    font-weight: 700;
+    padding: 1rem;
+    font-size: 30px;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 1rem;
+    background-color: #000;
+    margin-top: -150px;
+    transition: all 0.5s;
+}
+
+.prev:hover,
+.next:hover {
+    cursor: pointer;
+}
+
+.prev {
+    border-radius: 0 10px 10px 0;
+    left: 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.caption-text {
+    background-color: #000;
+    padding: 1rem;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.demo {
+    width: 100%;
+    opacity: 0.6;
+}
+
+.column {
+    width: 16.66%;
+    float: left;
+}
+
+.demo:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.demo.active {
+    opacity: 1;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
