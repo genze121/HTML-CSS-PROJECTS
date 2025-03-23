@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px;
+}
+
+.container .input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.input-box h3 {
+    font-size: 40px;
+}
+
+input[type="text"] {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 600px;
+    margin: 20px 0;
+    background-color: #eeeeee;
+}
+
+button {
+    background-color: #000;
+    border: none;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    font-weight: 700;
+    width: 600px;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.divider {
+    margin: 30px 0;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    gap: 10px;
+}
+
+.divider::before,
+.divider:after {
+    content: "";
+    background-color: rgb(185, 185, 185);
+    padding: 0.6px;
+    width: 280px;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.login-pro {
+    background-color: #ccc;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    width: 600px;
+}
+
+.login-pro:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.qr {
+    margin: 5px 0;
+}
+
+.login-qr {
+    background-color: #ccc;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qr-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-qr:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.consent {
+    margin: 10px 0;
+    width: 400px;
+    opacity: 0.6;
+    position: relative;
+}
+
+.consent p{
+    position: absolute;
+    left: -100px;
+}
