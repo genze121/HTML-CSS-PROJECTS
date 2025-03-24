@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 30px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #000;
+    transition: all 0.5s;
+}
+
+.box:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.box-one {
+    background-color: red;
+}
+
+.box-two {
+    background-color: green;
+}
+
+.box-three {
+    background-color: blue;
+}
+
+.box-four {
+    background-color: yellow;
+}
+
+.box-five {
+    background-color: orange;
+}
+
+.box-six {
+    background-color: purple;
+}
+
+.box-seven {
+    background-color: black;
+}
