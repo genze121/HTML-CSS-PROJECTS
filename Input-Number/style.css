@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 40px;
+    border: 1px solid #000;
+}
+
+input[type="number"] {
+    padding: 1rem;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input[type="number"]:focus {
+    outline: 2px solid red;
+}
+
+.middle-input-box {
+    width: 3px;
+    height: 200px;
+    background-color: red;
+}
+
+.num-input::-webkit-outer-spin-button,
+.num-input::-webkit-inner-spin-button {
+    appearance: none;
+}
