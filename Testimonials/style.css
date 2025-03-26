@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.testimonial {
+    width: 100%;
+    border: 1px solid #9e9e9e;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 20px;
+    background-color: #ccc;
+    box-shadow: 0 0 10px 0 #000;
+    height: 25vh;
+}
+
+.testimonial img {
+    float: left;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.text .para-text {
+    position: absolute;
+    top: 150px;
+    left: 160px;
+}
