@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: purple;
+    border-radius: 8px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button {
+    background-color: #ff0303;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    width: 20px;
+    height: 20px;
+    background-image: url("images/up-arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    width: 20px;
+    height: 20px;
+    background-image: url("images/down-arrow.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+::-webkit-scrollbar-button:single-button {
+    cursor: pointer;
+}
