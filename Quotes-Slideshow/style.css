@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    vertical-align: middle;
+    margin: 30px 30px;
+}
+
+.mySlides {
+    border: 1px solid #d0cece;
+    text-align: center;
+    padding: 2rem;
+    height: 40vh;
+    display: none;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: -80px;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.prev:hover,
+.next:hover {
+    cursor: pointer;
+}
+
+.prev {
+    left: 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 10px 0 0 10px;
+}
+
+.mySlides p {
+    font-size: 20px;
+}
+
+.mySlides h4 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.dots {
+    background-color: #ccc;
+    padding: 2rem;
+    text-align: center;
+}
+
+.dot {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.dot:hover {
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: red;
+}
