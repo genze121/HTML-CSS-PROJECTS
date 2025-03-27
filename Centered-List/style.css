@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 2px solid green;
+    margin: 30px 30px;
+    height: 50vh;
+    position: relative;
+}
+
+.centered-list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centered-list h2 {
+    margin-left: -40px;
+}
+.centered-list ul {
+    text-align: left;
+    margin: 10px 0;
+}
+
+.centered-list ul>li{
+    margin: 10px 0;
+}
