@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 15px 0;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 15px;
+}
+.navbar a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 15px;
+    color: #000;
+}
+
+.navbar a.active {
+    background-color: red;
+    padding: 15px;
+    color: #fff;
+}
+
+.content {
+    margin: 60px 10px 20px 10px;
+}
+
+.content h1,
+h2,
+h3 {
+    margin: 15px 0;
+}
+
+.content p {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+/* custom scrollbar effect */
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #ccc;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 0, 0);
+    border-radius: 6px;
+    border: 4px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-button {
+    background-color: rgb(230, 12, 12);
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement {
+    width: 40px;
+    height: 20px;
+    background-image: url("images/up-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:increment {
+    width: 40px;
+    height: 20px;
+    background-image: url("images/down-arrow.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+::-webkit-scrollbar-button:single-button:vertical:decrement:hover,
+::-webkit-scrollbar-button:single-button:vertical:increment:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
