@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+input[type="range"] {
+    width: 100%;
+    margin: 40px 0;
+}
+
+input[type="range"]:hover {
+    cursor: pointer;
+}
+
+.range-Slider-one {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    background-color: #cccc;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.range-Slider-one::-webkit-slider-thumb {
+    background-color: red;
+    appearance: none;
+    width: 1%;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.range-Slider-two {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ccc;
+    border-radius: 10px;
+    border: 1px solid #000;
+    height: 20px;
+}
+
+.range-Slider-two::-webkit-slider-thumb {
+    appearance: none;
+    background-color: blue;
+    width: 1%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.range-Slider-three {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.range-Slider-three::-webkit-slider-thumb {
+    appearance: none;
+    width: 1%;
+    border-radius: 50%;
+    border-top: 25px solid purple;
+    border-left: 25px solid purple;
+    border-bottom: 25px solid purple;
+    border-right: 25px solid transparent;
+}
+
+.range-Slider-four {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #ccc;
+    border: 1px solid #000;
+    border-radius: 10px;
+    height: 20px;
+}
+
+.range-Slider-four::-webkit-slider-thumb {
+    appearance: none;
+    width: 1%;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj9tIK_9eEhGJdX4Ft19gFyEL6uhgLAxlQqQ&s")
+        no-repeat center;
+    background-size: contain;
+    padding: 25px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+
+.range-Slider-four::-webkit-slider-thumb:hover {
+    opacity: 1;
+}
+
+.display-value {
+    margin: 20px 0;
+}
+
+span {
+    font-weight: 700;
+    font-size: 20px;
+    color: red;
+}
