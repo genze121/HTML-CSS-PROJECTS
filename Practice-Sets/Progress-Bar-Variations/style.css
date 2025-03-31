@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.progress {
+    background-color: #ccc;
+    width: 100%;
+}
+
+.progress .progress-bar {
+    background-color: #4f4ff1;
+    width: 0;
+    height: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+    gap: 20px;
+}
+
+button {
+    background-color: #0ff;
+    border: 1px solid #000;
+    font-weight: 700;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#stop:disabled {
+    cursor: no-drop;
+}
+
+#start:disabled{
+    cursor: no-drop;
+}
