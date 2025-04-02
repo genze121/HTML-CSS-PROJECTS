@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #a2a1a1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 3rem;
+    transition: all 0.5s;
+}
+
+.navbar .left {
+    margin: 10px;
+}
+
+.navbar .left h1 {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.navbar .right {
+    white-space: nowrap;
+}
+
+.navbar .right a {
+    text-decoration: none;
+    color: #0b05a8;
+    font-weight: 700;
+    margin: 4px;
+    padding: 15px;
+}
+
+.navbar .right a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.navbar .right a.active {
+    background-color: red;
+    padding: 15px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.content {
+    margin: 180px 10px 10px 10px;
+}
+
+.content h2 {
+    margin: 20px 0;
+    color: #574747;
+}
+
+.note {
+    border: 1px solid red;
+    padding: 10px;
+}
+
+.note::selection {
+    background-color: yellow;
+    color: red;
+}
+
+.content p {
+    line-height: 1.8;
+}
+
+.hamburger {
+    display: none;
+}
+
+.bar {
+    font-size: 30px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar .right {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+    .content {
+        margin: 220px 10px 10px 10px;
+    }
+}
