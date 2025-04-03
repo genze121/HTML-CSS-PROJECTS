@@ -7,7 +7,7 @@ let str = "madam";
 let isPalindrome = false;
 
 function palindromeChecker() {
-  const inputData = inputElement.value;
+  const inputData = inputElement.value.trim();
   let reverseStr = "";
 
   if (inputData.length === 0 || inputData === "") {
@@ -15,9 +15,7 @@ function palindromeChecker() {
     return;
   }
 
-  for (let i = str.length - 1; i >= 0; i--) {
-    reverseStr += str.charAt(i);
-  }
+  reverseStr = str.split("").reverse().join("");
 
   if (inputData === reverseStr) {
     isPalindrome = true;
