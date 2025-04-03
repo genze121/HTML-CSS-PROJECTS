@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #a9a7a7;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.navbar .left {
+    margin: 15px;
+}
+
+.navbar .left h1 {
+    background-color: red;
+    padding: 8px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.navbar .right {
+    margin: 15px;
+    white-space: nowrap;
+}
+
+.navbar .right a {
+    text-decoration: none;
+    margin: 10px;
+    color: #0c0c0c;
+    font-weight: 700;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.navbar .right a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.navbar .right a.active {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.ham {
+    display: none;
+}
+
+.hamburger {
+    font-size: 25px !important;
+    padding: 12px;
+    transition: all 0.5s;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+    background-color: #615d5d;
+    padding: 12px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.ham-list {
+    position: absolute;
+    background-color: blue;
+    width: 0;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    transition: all 0.5s;
+    white-space: nowrap;
+}
+
+.ham-list a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    text-align: center;
+    margin: 50px 0;
+    transition: all 0.5s;
+    white-space: nowrap;
+}
+
+.ham-list a:hover {
+    transform: scale(1.5);
+}
+
+.close-icon {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #fff;
+    font-size: 20px !important;
+    transition: all 0.5s;
+    z-index: 1;
+    white-space: nowrap;
+}
+
+.close-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar .right {
+        display: none;
+    }
+
+    .ham {
+        display: block;
+        margin: 20px;
+    }
+}
