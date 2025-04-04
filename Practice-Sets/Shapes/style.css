@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px 30px;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+    background-color: red;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.parallelogram {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid #000;
+    transform: skew(-20deg);
+}
+
+.oval {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.trapezoid {
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 400px;
+}
+
+.triangle-up {
+    border-bottom: 150px solid red;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+.triangle-down {
+    border-top: 150px solid red;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+}
+
+.triangle-left {
+    border-bottom: 150px solid transparent;
+    border-top: 150px solid transparent;
+    border-right: 150px solid red;
+}
+
+.triangle-right {
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+    border-left: 150px solid red;
+}
+
+.egg {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: red;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.pac-man-one {
+    border-top: 150px solid red;
+    border-bottom: 150px solid red;
+    border-left: 150px solid red;
+    border-radius: 50%;
+    border-right: 150px solid transparent;
+}
+
+.pac-man-two {
+    border-top: 150px solid red;
+    border-bottom: 150px solid red;
+    border-left: 150px solid red;
+    border-right: 150px solid transparent;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+
+.moon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 30px 30px 0 0 red;
+}
+
+.diamond {
+    border-top: 150px solid red;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    position: relative;
+    top: 120px;
+}
+
+.diamond::before {
+    content: "";
+    position: absolute;
+    border-bottom: 80px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    width: 140px;
+    bottom: 152px;
+    left: -150px;
+}
