@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+input[type="text"] {
+  width: 200px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  color: blue;
+  font-size: 15px;
+}
+
+input:focus {
+  border: 2px solid blue;
+  outline: blue;
+}
+
+input::placeholder {
+  color: red;
+  font-size: 14px;
+}
