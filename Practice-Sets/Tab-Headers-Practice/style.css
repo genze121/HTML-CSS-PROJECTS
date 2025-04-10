@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+  font-weight: 700;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.tab-content {
+  padding: 2rem;
+  margin: 30px 30px;
+  position: relative;
+  top: -30px;
+  line-height: 1.2;
+  display: none;
+}
+
+.tab-content h3,
+p {
+  margin: 10px 0;
+}
+
+#London {
+  background-color: red;
+  color: #fff;
+}
+
+#Paris {
+  background-color: blue;
+  color: #fff;
+}
+
+#Tokyo {
+  background-color: green;
+  color: #fff;
+}
+
+#Oslo {
+  background-color: orangered;
+  color: #fff;
+}
