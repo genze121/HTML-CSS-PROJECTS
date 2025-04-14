@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 30px;
+}
+
+.tooltip-text {
+  position: relative;
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  left: 20px;
+}
+
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  left: -15px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: transparent #000 transparent transparent;
+}
