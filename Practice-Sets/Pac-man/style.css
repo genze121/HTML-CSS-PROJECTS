@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  border: 1px solid #000;
+  margin: 30px 30px;
+  height: 100vh;
+}
+
+.pac-man {
+  /* border-top: 100px solid red;
+  border-left: 100px solid red;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent;
+  border-radius: 50%; */
+
+  border-top: 100px solid red;
+  border-left: 100px solid red;
+  border-bottom: 100px solid red;
+  border-right: 100px solid transparent;
+
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+
+.plus {
+  width: 100px;
+  height: 20px;
+  border: 2px solid red;
+  background-color: red;
+  margin: 60px 0;
+  position: relative;
+}
+
+.plus::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 100px;
+  border: 2px solid red;
+  background-color: red;
+  left: 40px;
+  top: -40px;
+}
+
+.moon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 20px 20px 0 0 red;
+}
