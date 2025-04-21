@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.online {
+    background-color: rgb(37, 116, 37);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    display: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.offline {
+    background-color: rgb(140, 0, 0);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    display: none;
+    font-weight: 700;
+    font-size: 20px;
+}
