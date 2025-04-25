@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 1rem;
+    transition: all 0.5s;
+}
+
+.navbar a:hover {
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.navbar a.active {
+    background-color: red;
+    color: #fff;
+}
+
+.scroll-indicator {
+    background-color: #ccc;
+    position: fixed;
+    top: 50px;
+    width: 100%;
+}
+
+.scroll-indicator .scroll {
+    background-color: rgb(51, 0, 255);
+    width: 0;
+    padding: 5px;
+}
+
+.content {
+    margin: 70px 10px 10px 10px;
+}
