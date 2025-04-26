@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ccc;
+    border: 1px solid #000;
+    margin: 0 30px;
+    border-radius: 20px;
+    box-shadow: 0 5px #000;
+}
+
+.progress-bar .progress {
+    background-color: red;
+    width: 0;
+    padding: 10px;
+    border-radius: 20px;
+    color: #fff;
+    text-align: end;
+    font-weight: 700;
+    transition: all 0.5s;
+    white-space: nowrap;
+}
