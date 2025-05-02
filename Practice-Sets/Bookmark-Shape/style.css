@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 30px;
+}
+
+.bookmark {
+    width: 150px;
+    height: 300px;
+    background-color: red;
+}
+
+.bookmark::after {
+    content: "";
+    position: absolute;
+    border-bottom: 100px solid rgb(255, 252, 252);
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    top: 250px;
+    left: 600px;
+}
