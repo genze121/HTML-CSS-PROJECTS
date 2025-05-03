@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px 30px;
+    white-space: nowrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid #000;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.oval {
+    width: 100px;
+    height: 80px;
+    background-color: red;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.parallelogram {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid #000;
+    transform: skew(-20deg);
+}
+
+.trapezoid {
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 400px;
+}
+
+.triangle-up {
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-down {
+    border-top: 100px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-left {
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid red;
+    width: 0;
+    height: 0;
+}
+
+.triangle-right {
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid red;
+    width: 0;
+    height: 0;
+}
+
+.egg {
+    width: 150px;
+    height: 200px;
+    background-color: red;
+    border: 1px solid #000;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+
+.moon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 0 0 red;
+}
+
+.pac-man {
+    border-top: 100px solid red;
+    border-left: 100px solid red;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid red;
+    border-radius: 50%;
+}
+
+.bookmark {
+    border-top: 100px solid red;
+    border-bottom: 100px solid red;
+    border-left: 100px solid red;
+    border-right: 100px solid transparent;
+    width: 300px;
+    transform: rotate(90deg);
+    margin: 50px auto;
+}
