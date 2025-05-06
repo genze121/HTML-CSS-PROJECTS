@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.moon {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 0 0 red;
+    margin-bottom: 30px;
+}
+
+.pac-man {
+    border-top: 200px solid red;
+    border-bottom: 200px solid red;
+    border-left: 200px solid red;
+    border-right: 200px solid transparent;
+    border-radius: 50%;
+}
