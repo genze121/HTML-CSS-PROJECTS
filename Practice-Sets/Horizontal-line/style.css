@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.horizontal {
+    width: 100%;
+    margin: 30px 30px;
+}
+
+.line-one {
+    border: 2px solid #000;
+    margin: 30px 0;
+}
+
+.line-two {
+    border: 2px dotted red;
+     margin: 30px 0;
+}
+
+.line-three {
+    border: 2px dashed blue;
+}
+
+.line-four{
+    border: 2px inset green;
+    padding: 1rem;
+    margin: 30px 0;
+}
