@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px;
+    gap: 20px;
+    text-align: center;
+}
+
+.borders {
+    width: 100%;
+}
+
+.border-one {
+    border: 3px solid red;
+}
+
+.border-two {
+    border: 3px dashed red;
+    margin-top: 20px;
+}
+
+.border-three {
+    border: 3px dotted red;
+    margin-top: 20px;
+}
+
+.border-four {
+    border: 3px double red;
+    margin-top: 20px;
+}
+
+.border-five {
+    border: 3px groove red;
+    margin-top: 20px;
+}
+
+.border-six {
+    border: 3px ridge red;
+    margin-top: 20px;
+}
+
+.border-seven {
+    border-style: inset;
+    margin-top: 20px;
+}
+
+.border-eight {
+    border-style: outset;
+    margin-top: 20px;
+}
+
+.border-nine {
+    border: none;
+    margin-top: 20px;
+}
+
+.border-ten {
+    border-style: dashed dotted double solid;
+    margin-top: 20px;
+}
