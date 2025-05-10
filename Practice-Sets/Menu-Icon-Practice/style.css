@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 30px 30px;
+}
+
+.menu-one,
+.menu-two,
+.menu-three {
+    width: 50px;
+    height: 5px;
+    background-color: red;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    cursor: pointer;
+}
+
+.active .menu-one {
+    transform: rotate(45deg) translate(10px, 10px);
+}
+
+.active .menu-two {
+    opacity: 0;
+}
+
+.active .menu-three {
+    transform: rotate(-45deg) translate(10px, -10px);
+}
