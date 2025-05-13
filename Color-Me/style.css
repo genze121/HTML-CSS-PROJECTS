@@ -48,6 +48,8 @@
     border: 1px solid #d6d4d4;
     border-radius: 50%;
     transition: all 0.5s;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 .one:hover,
@@ -80,7 +82,7 @@ button:hover {
     cursor: pointer;
 }
 
-.box.active{
+.box.active {
     background-color: red;
     color: #fff;
     font-weight: 700;
