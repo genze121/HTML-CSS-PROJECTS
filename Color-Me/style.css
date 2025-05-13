@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 30px 30px;
+    gap: 30px;
+}
+
+.container .box-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.one,
+.two,
+.three {
+    background-color: #edebeb;
+    padding: 45px 50px;
+    border: 1px solid #d6d4d4;
+    border-radius: 50%;
+    transition: all 0.5s;
+}
+
+.one:hover,
+.two:hover,
+.three:hover {
+    cursor: default;
+    transform: scale(1.2);
+    background-color: #ccc;
+}
+
+input[type="number"] {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    width: 140px;
+}
+
+button {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: blue;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.box.active{
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+}
