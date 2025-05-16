@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+    padding: 8px 0;
+    position: relative;
+}
+
+.left a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    transition: all 0.5s;
+}
+
+.left a:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    padding: 1rem;
+    color: #000;
+}
+
+.left a.active {
+    background-color: red;
+    padding: 1rem;
+    color: #fff;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa {
+    color: #fff;
+    margin: 0 20px;
+    font-size: 20px !important;
+    padding: 8px;
+}
+
+.fa:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+    border-radius: 50%;
+    padding: 8px;
+}
+
+.side-panel {
+    background-color: #000;
+    position: absolute;
+    color: #fff;
+    height: 100vh;
+    width: 0;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+    transition: all 0.4s;
+    white-space: nowrap;
+}
+
+.side-panel ul {
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.side-panel ul > li {
+    list-style-type: none;
+    padding: 1rem;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.side-panel ul > li:hover {
+    cursor: pointer;
+    background-color: #ccc;
+    color: #000;
+}
+
+.cross-icon {
+    position: absolute;
+    top: 55px;
+    color: #fff;
+}
+
+.side-panel.active {
+    width: 300px;
+}
