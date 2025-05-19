@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+input[type="number"] {
+    padding: 1rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+
+input[type="number"]:focus {
+    outline: 2px solid red;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    appearance: none;
+}
