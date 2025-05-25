@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    font-weight: 700;
+}
