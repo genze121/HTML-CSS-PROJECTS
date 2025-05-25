@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: 20px auto;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.parallelogram {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    transform: skew(-20deg);
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.oval {
+    width: 100px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.triangle-up {
+    border-bottom: 100px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-down {
+    border-top: 100px solid red;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 0;
+    height: 0;
+}
+
+.triangle-left {
+    border-left: 100px solid transparent;
+    border-top: 100px solid transparent;
+    border-right: 100px solid red;
+    border-bottom: 100px solid transparent;
+    height: 0;
+    width: 0;
+}
+
+.triangle-right {
+    border-left: 100px solid red;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-right: 100px solid transparent;
+    height: 0;
+    width: 0;
+}
