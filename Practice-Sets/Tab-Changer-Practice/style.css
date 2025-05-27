@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tab-headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+    gap: 2px;
+}
+
+button {
+    padding: 1rem;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.tab-content {
+    border: 1px solid #bab2b2;
+    margin: 20px 20px;
+    padding: 1rem;
+    position: relative;
+    top: -20px;
+    border-radius: 5px;
+    display: none;
+}
+
+h2,
+p {
+    padding: 0.5rem;
+}
