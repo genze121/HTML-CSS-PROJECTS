@@ -104,5 +104,5 @@ const stringTransformer = () => {
   return transformerArray;
 };
 
-// function caller
+/* function caller */
 stringTransformer();
