@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tab-headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin: 20px 20px;
+}
+
+button {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.tab-content {
+    border: 1px solid #ccc;
+    margin: 20px 20px;
+    padding: 1rem;
+    position: relative;
+    top: -20px;
+    display: none;
+}
+
+h2,
+p {
+    padding: 0.6rem;
+}
+
+#London,
+#Paris,
+#NewYork {
+    color: #fff;
+}
+
+.active{
+    color: #fff;
+}
