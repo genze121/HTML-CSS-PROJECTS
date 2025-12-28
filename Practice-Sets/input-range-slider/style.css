@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 40px 10px;
+}
+
+input[type="range"]{
+    width: 100%;
+}
+
+.square-range-slider{
+    -webkit-appearance: none;
+    appearance: none;
+    padding: 15px;
+    height: 10px;
+    background-color: #ddd;
+}
